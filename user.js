@@ -1631,6 +1631,6 @@ user_pref("browser.tabs.firefox-view-next", true); // [FF119+]
 // PREF: disable preSkeletonUI on startup [WINDOWS]
 user_pref("browser.startup.preXulSkeletonUI", false); // WINDOWS
 
-user_pref("browser.link.open_newwindow.restriction", 0); // DEFAULT
-user_pref("browser.link.open_newwindow", 1); // DEFAULT
+user_pref("browser.link.open_newwindow.restriction", 2); // DEFAULT
+user_pref("browser.link.open_newwindow", 3); // DEFAULT
 user_pref("browser.link.open_newwindow.override.external", 3); // DEFAULT
